@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Aclonica", sans-serif;
+    
+}
+
+
+.menuC{
+    background-color: #fff;
+    grid-area: menu;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+}
