@@ -45,18 +45,15 @@
     align-items: center;
 }
 
-.page .formSearch{
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    grid-area: form;
-    align-items: center;
-}
 
 .page .bodyC{
+    
     background-color: #fff;
     grid-area: body;
+}
+
+img{
+    width: 250px;
 }
 .page .bodyC .titulo2{
     padding-left:  50%;
