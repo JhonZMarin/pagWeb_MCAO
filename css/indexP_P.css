@@ -5,10 +5,14 @@
     font-family: "Aclonica", sans-serif;
     
 }
+.btnclas{
+    background: none;
+    
+}
 
 .page{
-    width: 100vw;
-    height: 100vh;
+    width:auto;
+    height:auto;
     overflow: auto;
     overflow-x: hidden;
     display: grid;
@@ -19,7 +23,7 @@
 }
 
 .page .headerC{
-    background-color: #fff;
+    background-color: #ff9900;
     grid-area: header;
     width: calc(100vw - 32px);
     height: 100px;
@@ -32,7 +36,7 @@
 .headerC .titulo{
     font-size: 48px;
     text-transform: capitalize;
-    border: 5px solid#000 ;
+    border: 5px solid#000000 ;
     border-radius: 30px;
     align-self: center;
 }
@@ -40,15 +44,15 @@
 
 .page .bodyC{
     border-radius: 30%;
-    background-color: #fff;
+    background-color: #5d5252c0;
     grid-area: body;
 }
 
 
-img{
+.page .bodyC .img{
     height: auto;
     width: 750px;
-    object-position: 50px;
+    object-position: 50px,50px;
    
 }
 .page .bodyC .titulo2{
@@ -57,7 +61,7 @@ img{
 
 }
 .page .footerC{
-    background-color: #c7c5c5;
+    background-color: #f90606;
     grid-area: footer;
     display: flex;
     flex-direction: row;
@@ -67,7 +71,7 @@ img{
 }
 
 .menuC{
-    background-color: #eeeeee;
+    background-color: #ffff006a;
     grid-area: menu;
     display: flex;
     flex-direction:column;
@@ -85,7 +89,7 @@ img{
 
 }
 .page .formSearch{
-    background-color: #eeeeee;
+    background-color: #f6000083;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;

@@ -1,27 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mas Populares</title>
-    <a href="indexPrincipal_Page.html">Inicio</a>
-    <link rel="stylesheet" href="css/PagPopu_Nuev.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="css/pagPopu.css">
 </head>
 
 <body>
-    <form action="#" method="post" class="menuC">
-        <div>
-            <button>Buscar</button>
-            <input type="text" name="menu" placeholder="Ingrese plato">
-        </div>
+    <section class="pagepp">
+        <header class="headerpp">
+            <h1 class="titulopp">Platos Populares de Hoy</h1>
+        </header>
 
-        <div>
-            <label>Ordenar por</label>
-            <select name="ordenarpor">
-                <option>Menor a Mayor precio</option>
-                <option>Mayor a Menor precio</option>
-            </select>
-        </div>
-    </form>
+        <form action="#" method="post" class="PlatosPopular">
+            <div>
+                <label>En tendencia</label>
+                <input type="text" name="platoNuevo" placeholder="Ingrese el plato ">
+            </div>
+
+            <div>
+                <label>Ordenar por</label>
+                <select name="verpp">
+                    <option>Menor a Mayor precio</option>
+                    <option>Mayor a Menor precio</option>
+                </select>
+            </div>
+
+            <div>
+                <button>Buscar</button>
+            </div>
+
+        </form>
+
+        
+
+        <section class="bodyPP">
+
+            <button class="btnvolver">
+                <a href="indexPrincipal_Page.html">INICIO</a>
+            </button> 
+
+            <h2 class="tituloPlato">Lista Platos</h2>
+
+            <article class="plato">
+                <h3 class="titulo">Pizza Mediterranea</h3>
+                <img class="imagenComida" src="resources/xd.jpg" alt="Comida Ejemplo">
+                <p class="descripcion">Esto es la descripcion de la comida</p>
+                <p class="precio">Precio: $45.000 COP</p>
+            </article>
+
+            <article class="plato">
+                <h3 class="titulo">Filet Migno</h3>
+                <img class="imagenComida" src="resources/ALR-8539032-perfect-pan-seared-filet-mignon-VAT-hero-4x3-f2c6d83fe8214f99995e397336fd9267.jpg" alt="Comida Ejemplo">
+                <p class="descripcion">Esto es la descripcion de la comida</p>
+                <p class="precio">Precio: $45.000 COP</p>
+            </article>
+
+            <article class="plato">
+                <h3 class="titulo">Pasta a la Carbonara</h3>
+                <img class="imagenComida" src="resources/PASTA-CARBONARA.jpg" alt="Comida Ejemplo">
+                <p class="descripcion">Esto es la descripcion de la comida</p>
+                <p class="precio">Precio: $45.000 COP</p>
+            </article>
+
+            <article class="plato">
+                <h3 class="titulo">Tacos al Pastor</h3>
+                <img class="imagenComida" src="resources/jarritos-mexican-soda-E0txIcqePac-unsplash.webp" alt="Comida Ejemplo">
+                <p class="descripcion">Esto es la descripcion de la comida</p>
+                <p class="precio">Precio: $45.000 COP</p>
+            </article>
+
+            <article class="plato">
+                <h3 class="titulo">Salmon</h3>
+                <img class="imagenComida" src="resources/bupa_598072389.jpg" alt="Comida Ejemplo">
+                <p class="descripcion">Esto es la descripcion de la comida</p>
+                <p class="precio">Precio: $45.000 COP</p>
+            </article>
+            
+        </section>
+        <footer class="footerPP">
+            <p>
+                <span class="material-symbols-outlined">
+                    photo_camera
+                </span>
+                Instragam
+            </p>
+            <p>
+                <span class="material-symbols-outlined">
+                    call
+                </span>
+                Telefonos
+            </p>
+            <p>WhatsApp</p>
+        </footer>
+    </section>
 </body>
 </html>

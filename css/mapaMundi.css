@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Aclonica", sans-serif;
+    
+}
+
+.Volver .btnvolver{
+    width: 90px;
+    height: 45px;
+    background-color: #9a9eb3;
+    border-radius: 10%;
+    background-color: #e5ecb8;
+   
+}
+
+img{
+    width: 160px;
+}
+
+.pagemp{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: "header header"
+    "body body" 
+    "footer footer";
+}
+
+.pagemp .headerMP{
+    background-color: #864b4b;
+    grid-area: header;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+    color: #273c99;
+}
+
+.pagemp .bodyMP{
+    background-image: url('../resources/backgrounds/a0cdc3ea55b91f54b26c15c00d1e1a16.jpg');
+    background-color: #fff;
+    grid-area: body;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 500px;
+    
+}
+
+.pagemp .bodyMP .tituloPlato{
+    width: 100%;
+    text-align: center;
+}
+
+.pagemp .footerMP{
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: #4b4b4b;
+    padding-top: 50px;
+    align-items:center ;
+   
+}
+.plato1{
+    width: 250px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    margin: 16px;
+    padding: 8px;
+    background-image: url("../resources/backgrounds/italia.jpg");
+}
+
+.plato1:hover{
+    border-color: #273c99 ;
+}
+
+.plato1:hover .descripcion{
+    display: block;
+    border-color: #000000 ;
+}
+
+.plato2{
+    width: 250px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    margin: 16px;
+    padding: 8px;
+    background-image: url("../resources/backgrounds/fran.jpg");
+    background-size: contain;
+}
+
+.plato2:hover{
+    border-color: #273c99 ;
+}
+
+.plato2:hover .descripcion{
+    display: block;
+    border-color: #000000 ;
+}
+
+.plato3{
+    width: 250px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    margin: 16px;
+    padding: 8px;
+    background-image: url("../resources/backgrounds/italia.jpg");
+}
+
+.plato3:hover{
+    border-color: #273c99 ;
+}
+
+.plato3:hover .descripcion{
+    display: block;
+    border-color: #000000 ;
+}
+
+.plato4{
+    width: 250px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    margin: 16px;
+    padding: 8px;
+    background-image: url("../resources/backgrounds/india.jpg");
+}
+
+.plato4:hover{
+    border-color: #273c99 ;
+}
+
+.plato4:hover .descripcion{
+    display: block;
+    border-color: #000000 ;
+}
+
+.plato5{
+    width: 250px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    margin: 16px;
+    padding: 8px;
+    background-image: url("../resources/backgrounds/fran.jpg");
+}
+
+.plato5:hover{
+    border-color: #273c99 ;
+}
+
+.plato5:hover .descripcion{
+    display: block;
+    border-color: #000000 ;
+}
+
