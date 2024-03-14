@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Aclonica", sans-serif;
+    
+    
+}
+
+.btnvolver{
+    width: 90px;
+    height: 45px;
+    background-color: #c4af59;
+    border-radius: 10%;
+    position:relative;
+}
+
+img{
+    width: 160px;
+}
+
+.pagepp{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 2fr 1fr 4fr 1fr;
+    grid-template-areas: "header header"
+                         "form menu" 
+                         "body menu" 
+                         "footer menu";
+}
+
+.pagepp .headerpp{
+    background-color: #991414;
+    grid-area: header;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    
+    padding-left: 40%;
+}
+
+.pagepp .PlatosPopular{
+    
+    background-color: #d9a414ea;
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    color: aliceblue;
+}
+
+.pagepp .bodyPP{
+    
+    background-image: url('../resources/backgrounds/joel-jasmin-forestbird-xzPMUMDDsfk-unsplash.jpg');
+    background-size:100% ;
+    background-repeat: no-repeat, no-repeat;
+    
+    grid-area:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.pagepp .bodyPP .tituloPlato{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.pagepp .bodyPP .plato{
+    width: 250px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    margin: 16px;
+    padding: 8px;
+    color: aliceblue;
+    
+}
+
+.pagepp .plato.descripcion{
+    display: none;
+    color: rgb(248, 248, 248);
+    
+}
+
+.pagepp .plato:hover{
+    border-color: hsl(0, 0%, 100%) ;
+}
+
+.pagepp.plato:hover .descripcion{
+    display: block;
+    border-color: #000000 ;
+    
+}
+
+.pagepp .footerPP{
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: #4b4b4b;
+   
+}
