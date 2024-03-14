@@ -5,11 +5,13 @@
     
 }
 
-.btnvolver{
+.Volver .btnvolver{
     width: 90px;
     height: 45px;
     background-color: #9a9eb3;
     border-radius: 10%;
+    background-color: #e5ecb8;
+   
 }
 
 img{
@@ -31,7 +33,7 @@ img{
 }
 
 .pagenp .headerNP{
-    background-color: #808080;
+    background-color: #864b4b;
     grid-area: header;
     position: sticky;
     top: 0px;
@@ -39,10 +41,11 @@ img{
     display: flex;
     align-items: center;
     padding-left: 40%;
+    color: #273c99;
 }
 
 .pagenp .nuevosPlatos{
-    background-color: #c8c8c8;
+    background-color: #5a90a5;
     grid-area: menu;
     display: flex;
     flex-direction: column;
@@ -51,6 +54,7 @@ img{
 }
 
 .pagenp .bodyNP{
+    background-image: url('../resources/backgrounds/a0cdc3ea55b91f54b26c15c00d1e1a16.jpg');
     background-color: #fff;
     grid-area: body;
     display: flex;
@@ -59,6 +63,7 @@ img{
     align-items: flex-start;
     flex-wrap: wrap;
     height: 500px;
+    
 }
 
 .pagenp .bodyNP .tituloPlato{
